@@ -1,0 +1,48 @@
+{% load static %}
+<style>
+    .sidenav{
+        width: 190px;
+        margin-top: 55px;
+    }
+    .main{
+        margin: none;
+    }
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark navigate ">
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav mr-auto ">
+        <li class="nav-item" >
+        <a class="nav-link" href="{% url 'home' %}" >Main</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link" href="{% url 'asia' %}" >Asia</a>
+      </li>
+            <li class="nav-item" >
+        <a class="nav-link" href="{% url 'africa' %}" >Africa</a>
+      </li>
+            <li class="nav-item" >
+        <a class="nav-link" href="{% url 'northAmerica' %}" >North America</a>
+      </li>
+            <li class="nav-item" >
+        <a class="nav-link" href="{% url 'southAmerica' %}" >South America</a>
+      </li>
+            <li class="nav-item" >
+        <a class="nav-link" href="{% url 'antarctica' %}" >Antarctica</a>
+      </li>
+            <li class="nav-item" >
+        <a class="nav-link" href="{% url 'europe' %}" >Europe</a>
+      </li>
+            <li class="nav-item" >
+        <a class="nav-link" href="{% url 'oceania' %}" >Oceania</a>
+      </li>
+
+
+    </ul>
+  </div>
+
+</nav>
