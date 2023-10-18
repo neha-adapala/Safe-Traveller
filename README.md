@@ -1,4 +1,4 @@
-# Carpool
+# Safe-Traveller
 
 Instructions to install Python, PyCharm, Django and Run Webserver
 
